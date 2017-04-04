@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-service-nodejs",
+  "version": "0.0.1",
+  "description": "Serviço de E-Commerce com persistência poliglota usando PostgreSQL, MongoDB e Neo4j",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "postgresql",
+    "neo4j",
+    "ecommerce",
+    "restful"
+  ],
+  "author": "Natan Severo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "consign": "^0.1.2",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2",
+    "neo4j-driver": "^1.2.0",
+    "pg": "^6.1.5"
+  }
+}
